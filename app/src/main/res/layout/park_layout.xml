@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/meseum"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:text="More Info"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Irish House, Polokwane. Right in the centre of the city of Polokwane is Irish House, a Victorian building that was prefabricated and moved complete to the city by a German immigrant, August Julius Herman Moschke in the early 1900s. The buiding was burnt down by a fire in 1906 and rebuilt in 1910. During World War 1 Moschke was interned and upon his release he found the building in a state of disrepair and the building was then sold to an Irishman, James Albert Jones, in 1920 and housed a general dealer. Jones traveled overseas to import clothes for the fashion conscious ladies and gentlemen of Polokwane then known as Pieterburg. It was Jones who gave the building the name Irish House. Irish House degraded over the years until 1984 when the City Council of Polokwane purchased the building and converted it into a museum. The city council restored the building to its former glory when it was still the Irish House, complete with its green paint. "/>
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A460"
+
+    android:orientation="vertical">
+
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+         android:src="@drawable/bakonemalapamuseum"
+         android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Description"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:text="More Info"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:text="The stylish Bakone Malapa Museum is a wonderful place to experience the rich culture of the BaSotho people.The Bakone, a highly sophisticated subgroup of the Northern Sotho tribe, will give you a warm welcome and enthusiastically share their contemporary and traditional customs.The guides are superb story tellers and the village becomes alive as they take you on a journey through their traditional way of life."/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity" />
+
+
+</LinearLayout>

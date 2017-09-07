@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#F4A460"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/petermo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:text="More Info"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Peter Mokaba Sports complex offer variety of sporting code. With new Peter Mokaba stadium build and used for 2010 soccer wold cup with capabilites of 40 000 and attached to the old Peter Mokaba with athelets track it is used for school competitions and other competions.  We have netball and rugby field also."/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity"
+         />
+    </LinearLayout>
+    </ScrollView>

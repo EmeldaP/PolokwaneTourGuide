@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_holo_blue_light">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/townlodgepolokwane"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:text="More Info"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Polokwane Town Lodge is conveniently situated for business and leisure travellers, this 102-room hotel is adjacent to the fabulous Meropa Casino and Entertainment Complex and blends in with its mystical Moroccan theme. Apart from being a short drive from almost anything in Polokwane, it is also ideally located for access to the citys new conference centre, reptile and bird park, and African arts and crafts market. Twins rooms are available at this hotel as well as 4 luxurious suites."/>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity" />
+
+</LinearLayout>

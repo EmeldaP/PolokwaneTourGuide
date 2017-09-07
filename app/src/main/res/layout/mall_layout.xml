@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mallofthenorthpolokwan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitStart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:text="More info"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+        android:text="Mall of the North brings you unsurpassed retail variety, quality and service with 186 stores,restaurants and entertainment. At Mall of the North we pride ourselves to be the one place where all your tourist needs are met, making your travelling experience a rewarding one.Mallof the North is a 75 000m super regional  shopping centre nestled in the heart of Polokwane,with 186 stores."/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#F4A460"
+    android:orientation="vertical">
+
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:src="@drawable/imagewild"
+       android:scaleType="fitStart"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+       android:text="More Info"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just a 10 minute drive from the centre of Polokwane, previously known as Pietersburg, you will find is the entrance to the Polokwane Game Reserve, one of the largest municipal game reserves in South Africa covering 3 250 hectares. The reserve protects a relatively rare type of vegetation and is home to some fussy eaters like the sable antelope. A visit to Polokwane Game Reserve is described as a lovely wildlife experience, which can also be explored on horseback. Although only 10 minutes from Polokwane, the reserve is a three hour drive from Johannesburg, but guarantees a high-quality, low-cost wildlife experience where you can see plenty of game, forests of aloes and unusual birds" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.codetribe.polokwanetourguide.MapsActivity" />
+
+</LinearLayout>
